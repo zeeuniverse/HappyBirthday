@@ -7,7 +7,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 object NetworkAdapter {
     val retrofit: Retrofit = Retrofit
         .Builder()
-        .baseUrl("")
+        .baseUrl("fake URL")
         .addConverterFactory(MoshiConverterFactory.create())
         .build()
 }
